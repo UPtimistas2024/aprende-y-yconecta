@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talleres - Aprende y Conecta</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #002244;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #00b3e6;
+        }
+        .talleres-content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .taller-blocks {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .taller-block {
+            flex: 1;
+            min-width: 300px;
+            max-width: 350px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .taller-block:hover {
+            transform: scale(1.05);
+        }
+        .taller-block img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .taller-block p {
+            margin-top: 10px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aprende y Conecta - Talleres</h1>
+    </header>
+    <nav class="buttons">
+        <a href="index.html">Inicio</a>
+        <a href="talleres.html" class="active">Talleres</a>
+        <a href="#contacto">Contáctanos para más información</a>
+    </nav>
+
+    <div class="talleres-content">
+        <h2>Talleres Disponibles</h2>
+        <div class="taller-blocks">
+            <div class="taller-block">
+                <img src="https://via.placeholder.com/350x200" alt="Excel Avanzado">
+                <h3>Excel Avanzado</h3>
+                <p>Descripción: Aprende a crear fórmulas complejas, manejar tablas dinámicas, y automatizar tareas con macros.<br>
+                Duración: 4 sesiones de 2 horas.</p>
+            </div>
+            <div class="taller-block">
+                <img src="https://via.placeholder.com/350x200" alt="Power BI">
+                <h3>Power BI</h3>
+                <p>Descripción: Introducción a Power BI para crear informes interactivos y visualizaciones de datos efectivas.<br>
+                Duración: 3 sesiones de 2 horas.</p>
+            </div>
+            <div class="taller-block">
+                <img src="https://via.placeholder.com/350x200" alt="Seguridad Digital">
+                <h3>Seguridad Digital</h3>
+                <p>Descripción: Mejora la seguridad de tus datos y dispositivos en el trabajo, evitando fraudes y amenazas comunes.<br>
+                Duración: 1 sesión de 2 horas.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aprende y Conecta. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
